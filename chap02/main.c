@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     /* SDL_DOUBLEBUF, Enable double buffering, you can use SDL_Flip to update screen */
     /* SDL_FULLSCREEN, full screen mode */
     /* return NULL on Setting Video Mode fail */
-    SDL_Surface *screen = SDL_SetVideoMode(640, 480, 0, SDL_HWSURFACE|SDL_DOUBLEBUF);
+    SDL_Surface *screen = SDL_SetVideoMode(320, 480, 0, SDL_HWSURFACE|SDL_DOUBLEBUF);
 
     if (screen == NULL) {
         printf("Unable to set video mode: %s\n", SDL_GetError());
