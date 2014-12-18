@@ -1,4 +1,4 @@
-/* usage: gcc -o game `sdl-config --cflags --libs` main.c */
+/* usage: gcc -o game main.c `sdl-config --cflags --libs` */
 #include <stdio.h>
 #include <SDL.h>
 
