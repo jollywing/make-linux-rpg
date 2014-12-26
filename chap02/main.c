@@ -32,6 +32,8 @@ int main(int argc, char *argv[])
     SDL_WM_SetCaption("Hello, Linux Game!", NULL);
 
     /* To pause the program */
-    getchar();
+    while(1){
+        SDL_Delay(1000);
+    }
     return 0;
 }
